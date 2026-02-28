@@ -1,14 +1,14 @@
 class Ember < Formula
   desc "Foundry local daemon, Forge CLI, and Forge web workbench"
   homepage "https://github.com/CanYumusak/foundry"
-  url "https://github.com/CanYumusak/foundry/releases/download/v0.1.0/foundry-cli-darwin-arm64.tar.gz"
+  url "https://github.com/CanYumusak/homebrew-foundry/releases/download/v0.1.0/foundry-cli-darwin-arm64.tar.gz"
   sha256 "6d7650039e984e3c9020108ec56f2c84c6e5cfad413399dc9bbe99f02e87b93d"
   license "MIT"
 
   depends_on "node"
 
   resource "forge-web" do
-    url "https://github.com/CanYumusak/foundry/releases/download/v0.1.0/foundry-forge-web-darwin-arm64.tar.gz"
+    url "https://github.com/CanYumusak/homebrew-foundry/releases/download/v0.1.0/foundry-forge-web-darwin-arm64.tar.gz"
     sha256 "29f42986b2c9f4a67d36748b386bf9031b541dc688157b1ad0f4dbedb94099d9"
   end
 
